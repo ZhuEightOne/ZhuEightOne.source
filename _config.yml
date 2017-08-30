@@ -4,15 +4,15 @@
 
 # Site
 title: Hexo
-subtitle:
+subtitle: 想要什么 我会通过努力独立去争 不是像个孩子在我身后狂喷
 description:
-author: John Doe
+author: ZhuEightOne
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://zhueightone.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: eightone
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
