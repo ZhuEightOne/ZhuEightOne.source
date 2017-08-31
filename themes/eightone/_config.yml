@@ -4,10 +4,10 @@
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  博客首页: /Home
-  作品展示: /works
-  留言打卡: /about
-  前端导航: /FrontEndGuide
+  博客首页: /
+# 作品展示: /works
+# 留言打卡: /about
+# 前端导航: /FrontEndGuide
 # 静心阅读: /tags
 # 光影之路: /instagram
 # 随笔: /tags/随笔
@@ -48,7 +48,7 @@ subnav:
 
 disqus: 
   # on: true
-  shortname: ZhuEightOne
+  # shortname: ZhuEightOne
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if 
   # you have set "disqus_shortname" in your site's "_config.yml" 

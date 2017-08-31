@@ -116,33 +116,25 @@
 <%- partial('share/showshare') %>
 <% } %>
 <% if (!index && post.comments){ %>
-    <% if (theme.duoshuo.on) { %>
-      <%- partial('comments/duoshuo', {
-          key: post.path,
-          title: post.title,
-          url: config.url+url_for(post.path),
-          }) %>
-    <% } else if (theme.youyan.on) { %>
-        <%- partial('comments/youyan') %>
-    <% } else if (theme.gitment.on) { %>
-        <%- partial('comments/gitment', {
-            owner: theme.gitment.owner,
-            repo: theme.gitment.repo,
-            client_id: theme.gitment.client_id,
-            client_secret: theme.gitment.client_secret,
-            desc: post.description,
-            id: post.path
-          }) %>
-    <% } else if (theme.disqus.on) { %>
-        <%- partial('comments/disqus', {
-            shortname: theme.disqus.shortname
-          }) %>
-    <% } else if (config.disqus_shortname) { %>
-        <%- partial('comments/disqus', {
-            shortname: config.disqus_shortname
-          }) %>
-    <% } %>
-<% } %>
+  <section id="comments">
+<!--高速版，加载速度快，使用前需测试页面的兼容性-->
+<div id="SOHUCS" sid="<%= page.title %>"></div>
+<script>
+  (function(){
+    var appid = 'cytbUiij6',
+    conf = 'cd20f83abefb42dfa5b64567b189c07b';
+    var doc = document,
+    s = doc.createElement('script'),
+    h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+    s.type = 'text/javascript';
+    s.charset = 'utf-8';
+    s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+    h.insertBefore(s,h.firstChild);
+    window.SCS_NO_IFRAME = true;
+  })()
+</script>    
+  </section>
+  <% } %>
 
 <%- partial('_partial/post-nav-button') %>
 
