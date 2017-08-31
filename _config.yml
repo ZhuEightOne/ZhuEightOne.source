@@ -8,7 +8,7 @@ subtitle: 想要什么 我会通过努力独立去争 不是像个孩子在我�
 description: 扎实基础 自我管理 知识管理 时间管理 认知升级
 author: ZhuEightOne
 language: zh-CN
-timezone:
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: eightone
+theme: black-blue
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
