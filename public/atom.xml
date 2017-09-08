@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>To be a better one</title>
-  <subtitle>想要什么 我会通过努力独立去争 不是像个孩子在我身后狂喷</subtitle>
+  <subtitle>不患无位，患所以立。不患莫己知，求为可知也</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://zhueightone.github.io/"/>
+  <link href="http://www.zhueightone.com/"/>
   <updated>2017-09-06T10:34:05.383Z</updated>
-  <id>https://zhueightone.github.io/</id>
+  <id>http://www.zhueightone.com/</id>
   
   <author>
     <name>ZhuEightOne</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://zhueightone.github.io/2017/09/06/hello-world/"/>
-    <id>https://zhueightone.github.io/2017/09/06/hello-world/</id>
+    <link href="http://www.zhueightone.com/2017/09/06/hello-world/"/>
+    <id>http://www.zhueightone.com/2017/09/06/hello-world/</id>
     <published>2017-09-06T10:21:54.000Z</published>
     <updated>2017-09-06T10:34:05.383Z</updated>
     
@@ -44,8 +44,8 @@
   
   <entry>
     <title>test</title>
-    <link href="https://zhueightone.github.io/2017/08/28/test/"/>
-    <id>https://zhueightone.github.io/2017/08/28/test/</id>
+    <link href="http://www.zhueightone.com/2017/08/28/test/"/>
+    <id>http://www.zhueightone.com/2017/08/28/test/</id>
     <published>2017-08-28T12:30:37.000Z</published>
     <updated>2017-08-28T12:30:46.591Z</updated>
     
